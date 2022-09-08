@@ -10,28 +10,21 @@ import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 })
 export class ProSelectComponent implements OnChanges {
 
-  @Input()
-  cbTag!: String;
-  @Input()
-  selectIcon!: IconDefinition;
-  @Input()
-  selectLabel!: String;
-  @Input()
-  selectItems!: any[];
+  @Input() cbTag!: String;
+  @Input() selectIcon!: IconDefinition;
+  @Input() selectLabel!: String;
+  @Input() selectItems!: any[];
   @Input() selection: any;
-  @Input()
-  cbValue!: Boolean;
+  @Input() cbValue!: Boolean;
   @Input() defaultSelection: any;
-  @Input()
-  id!: String;
+  @Input() id!: String;
   @Input() selectDisabled = false;
-  @Input()
-  flags!: number;
-  @Input()
-  flagMask!: number[];
+  @Input() flags!: number;
+  @Input() flagMask!: number[];
   @Output() flagsChange = new EventEmitter<number>();
   @Output() selectionChange = new EventEmitter<any>();
   @Output() cbChange = new EventEmitter<Boolean>();
+  
   rangeValue!: number;
 
   constructor() { 

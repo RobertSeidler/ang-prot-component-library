@@ -1,6 +1,4 @@
 import { DimmPipe } from './dimm.pipe';
-// import { CalcType } from '../../lsm6.service';
-// import { CalcType } from '../../../pro-connection-services/src/public-api';
 import { CalcType } from 'pro-connection-services';
 import { Component, OnInit, Input, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { faCertificate, faPowerOff } from '@fortawesome/free-solid-svg-icons';
@@ -13,10 +11,8 @@ import { faLightbulb, faCircle } from '@fortawesome/free-regular-svg-icons';
 })
 export class ProDimmSliderComponent implements OnInit {
 
-  @Input()
-  dimmValue!: number;
-  @Input()
-  channel!: number;
+  @Input() dimmValue!: number;
+  @Input() channel!: number;
   @Input() sceneSlider = true;
   @Input() disabled = false;
   @Output() dimmValueChange = new EventEmitter<number>();
