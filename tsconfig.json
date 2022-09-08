@@ -16,6 +16,24 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "pro-connection-services": [
+        "dist/pro-connection-services/pro-connection-services",
+        "dist/pro-connection-services"
+      ],
+      "pro-dimm-slider": [
+        "dist/pro-dimm-slider/pro-dimm-slider",
+        "dist/pro-dimm-slider"
+      ],
+      "pro-select": [
+        "dist/pro-select/pro-select",
+        "dist/pro-select"
+      ],
+      "pro-slider": [
+        "dist/pro-slider/pro-slider",
+        "dist/pro-slider"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
