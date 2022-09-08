@@ -4,7 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { ProSliderComponent } from './pro-slider.component';
 
-import { DimmPipe, ProDimmSliderModule } from 'pro-dimm-slider';
+// import { DimmPipe } from 'pro-dimm-slider';
+import { ProDimmSliderModule } from 'pro-dimm-slider';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
@@ -18,9 +19,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProDimmSliderModule,
     FontAwesomeModule
   ],
-  providers: [   
-    DimmPipe
-  ],
+  // providers: [   
+  //   DimmPipe
+  // ],
   exports: [
     ProSliderComponent
   ]

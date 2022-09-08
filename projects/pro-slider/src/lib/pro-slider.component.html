@@ -1,17 +1,19 @@
-<div style="text-align: right;">
+<div class="cb-tag-container">
     {{ cbTag }}:
-    <input type="checkbox" [id]="id" [ngModel]="cbValue" (change)="toggleActive($event)" [disabled]="this.cbDisabled" />
-    <label [for]="id"></label>
 </div>
-<div>
+<div class="slider-label-container">
     <label>
     <fa-icon [icon]="sliderIcon"></fa-icon>
-    {{ sliderLabel }}
+    {{ sliderLabel }} 
     </label>
 </div>
-<div *ngIf="sliderVisable" style="text-align: left;">
+<div *ngIf="sliderVisable" class="slider-container">
     <input type="range" id="'RAN_'+id" [ngModel]="value | dimm:calcType" (ngModelChange)="setDimm($event)" [disabled]="sliderDisabled" [min]="min" [max]="max" />
 </div>
-<div style="grid-column: 4 / 5;">
+<div class="dimm-value-container">
     <input type="number" id="'NUM_'+id" [ngModel]="value | dimm:calcType" (change)="setDimm(getEventTargetsValueAsNumber($event))" [disabled]="sliderDisabled" [min]="min" [max]="max" [step]="step" /> {{ symbol }}
+</div>
+<div class="activate-toggle-container">
+    <input type="checkbox" [id]="id" [ngModel]="cbValue" (change)="toggleActive($event)" [disabled]="this.cbDisabled" />
+    <label [for]="id"></label>
 </div>
