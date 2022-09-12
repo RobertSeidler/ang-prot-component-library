@@ -2,6 +2,10 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
 
+## Install
+
+Install this package by running `npm install --save pro-slider`. Also peer dependencies need to be intalled manually by running `npm install --save pro-dimm-slider@^0.0.1`.
+
 ## Code scaffolding
 
 Run `ng generate component component-name --project pro-slider` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project pro-slider`.

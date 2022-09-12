@@ -6,7 +6,7 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": []
+    "types": ["w3c-web-nfc", "web-bluetooth"]
   },
   "exclude": [
     "src/test.ts",

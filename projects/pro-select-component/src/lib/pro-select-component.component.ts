@@ -3,12 +3,12 @@ import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 
 @Component({
   selector: 'app-pro-select',
-  templateUrl: './pro-select.component.html',
+  templateUrl: './pro-select-component.component.html',
   styleUrls: [
-    './pro-select.component.css'
+    './pro-select-component.component.css'
   ]
 })
-export class ProSelectComponent implements OnChanges {
+export class ProSelectComponentComponent implements OnChanges {
 
   @Input() cbTag!: String;
   @Input() selectIcon!: IconDefinition;

@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProSelectComponent } from './pro-select.component';
+import { ProSelectComponent } from './pro-select-component.component';
 
-describe('ProSelectComponent', () => {
+describe('ProSelectComponentComponent', () => {
   let component: ProSelectComponent;
   let fixture: ComponentFixture<ProSelectComponent>;
 

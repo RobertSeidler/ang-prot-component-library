@@ -10,6 +10,12 @@
         "pro-sel": "ng build pro-select",
         "pro-sli": "ng build pro-slider",
         "watch": "ng build --watch --configuration development",
+        "publish:project": "cd projects/PROJECT && npm version patch && cd ../.. && ng build PROJECT && cd dist/PROJECT && npm publish && cd ../..",
+        "publish:pro-connection-services": "cd projects/pro-connection-services && npm version patch && cd ../.. && ng build pro-connection-services && cd dist/pro-connection-services && npm publish && cd ../..",
+        "publish:pro-dimm-slider": "cd projects/pro-dimm-slider && npm version patch && cd ../.. && ng build pro-dimm-slider && cd dist/pro-dimm-slider && npm publish && cd ../..",
+        "publish:pro-select": "cd projects/pro-select && npm version patch && cd ../.. && ng build pro-select && cd dist/pro-select && npm publish && cd ../..",
+        "publish:pro-select-component": "cd projects/pro-select-component && npm version patch && cd ../.. && ng build pro-select-component && cd dist/pro-select-component && npm publish && cd ../..",
+        "publish:pro-slider": "cd projects/pro-slider && npm version patch && cd ../.. && ng build pro-slider && cd dist/pro-slider && npm publish && cd ../..",
         "test": "ng test"
     },
     "private": true,

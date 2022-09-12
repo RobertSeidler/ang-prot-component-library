@@ -25,9 +25,9 @@
         "dist/pro-dimm-slider/pro-dimm-slider",
         "dist/pro-dimm-slider"
       ],
-      "pro-select": [
-        "dist/pro-select/pro-select",
-        "dist/pro-select"
+      "pro-select-component": [
+        "dist/pro-select-component/pro-select-component",
+        "dist/pro-select-component"
       ],
       "pro-slider": [
         "dist/pro-slider/pro-slider",

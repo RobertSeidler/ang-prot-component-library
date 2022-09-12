@@ -1,135 +1,135 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "5e9e24be-ede6-47a6-bb47-9b5ada2d561a"
-  },
-  "version": 1,
-  "newProjectRoot": "projects",
-  "projects": {
-    "pro-select": {
-      "projectType": "library",
-      "root": "projects/pro-select",
-      "sourceRoot": "projects/pro-select/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "project": "projects/pro-select/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/pro-select/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/pro-select/tsconfig.lib.json"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/pro-select/src/test.ts",
-            "tsConfig": "projects/pro-select/tsconfig.spec.json",
-            "karmaConfig": "projects/pro-select/karma.conf.js"
-          }
-        }
-      }
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "cli": {
+        "analytics": "5e9e24be-ede6-47a6-bb47-9b5ada2d561a"
     },
-    "pro-slider": {
-      "projectType": "library",
-      "root": "projects/pro-slider",
-      "sourceRoot": "projects/pro-slider/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "project": "projects/pro-slider/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/pro-slider/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/pro-slider/tsconfig.lib.json"
+    "version": 1,
+    "newProjectRoot": "projects",
+    "projects": {
+        "pro-slider": {
+            "projectType": "library",
+            "root": "projects/pro-slider",
+            "sourceRoot": "projects/pro-slider/src",
+            "prefix": "lib",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
+                    "options": {
+                        "project": "projects/pro-slider/ng-package.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "tsConfig": "projects/pro-slider/tsconfig.lib.prod.json"
+                        },
+                        "development": {
+                            "tsConfig": "projects/pro-slider/tsconfig.lib.json"
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "main": "projects/pro-slider/src/test.ts",
+                        "tsConfig": "projects/pro-slider/tsconfig.spec.json",
+                        "karmaConfig": "projects/pro-slider/karma.conf.js"
+                    }
+                }
             }
-          },
-          "defaultConfiguration": "production"
         },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/pro-slider/src/test.ts",
-            "tsConfig": "projects/pro-slider/tsconfig.spec.json",
-            "karmaConfig": "projects/pro-slider/karma.conf.js"
-          }
+        "pro-dimm-slider": {
+            "projectType": "library",
+            "root": "projects/pro-dimm-slider",
+            "sourceRoot": "projects/pro-dimm-slider/src",
+            "prefix": "lib",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
+                    "options": {
+                        "project": "projects/pro-dimm-slider/ng-package.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "tsConfig": "projects/pro-dimm-slider/tsconfig.lib.prod.json"
+                        },
+                        "development": {
+                            "tsConfig": "projects/pro-dimm-slider/tsconfig.lib.json"
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "main": "projects/pro-dimm-slider/src/test.ts",
+                        "tsConfig": "projects/pro-dimm-slider/tsconfig.spec.json",
+                        "karmaConfig": "projects/pro-dimm-slider/karma.conf.js"
+                    }
+                }
+            }
+        },
+        "pro-connection-services": {
+            "projectType": "library",
+            "root": "projects/pro-connection-services",
+            "sourceRoot": "projects/pro-connection-services/src",
+            "prefix": "lib",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
+                    "options": {
+                        "project": "projects/pro-connection-services/ng-package.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "tsConfig": "projects/pro-connection-services/tsconfig.lib.prod.json"
+                        },
+                        "development": {
+                            "tsConfig": "projects/pro-connection-services/tsconfig.lib.json"
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "main": "projects/pro-connection-services/src/test.ts",
+                        "tsConfig": "projects/pro-connection-services/tsconfig.spec.json",
+                        "karmaConfig": "projects/pro-connection-services/karma.conf.js"
+                    }
+                }
+            }
+        },
+        "pro-select-component": {
+            "projectType": "library",
+            "root": "projects/pro-select-component",
+            "sourceRoot": "projects/pro-select-component/src",
+            "prefix": "lib",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
+                    "options": {
+                        "project": "projects/pro-select-component/ng-package.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "tsConfig": "projects/pro-select-component/tsconfig.lib.prod.json"
+                        },
+                        "development": {
+                            "tsConfig": "projects/pro-select-component/tsconfig.lib.json"
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "main": "projects/pro-select-component/src/test.ts",
+                        "tsConfig": "projects/pro-select-component/tsconfig.spec.json",
+                        "karmaConfig": "projects/pro-select-component/karma.conf.js"
+                    }
+                }
+            }
         }
-      }
     },
-    "pro-dimm-slider": {
-      "projectType": "library",
-      "root": "projects/pro-dimm-slider",
-      "sourceRoot": "projects/pro-dimm-slider/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "project": "projects/pro-dimm-slider/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/pro-dimm-slider/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/pro-dimm-slider/tsconfig.lib.json"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/pro-dimm-slider/src/test.ts",
-            "tsConfig": "projects/pro-dimm-slider/tsconfig.spec.json",
-            "karmaConfig": "projects/pro-dimm-slider/karma.conf.js"
-          }
-        }
-      }
-    },
-    "pro-connection-services": {
-      "projectType": "library",
-      "root": "projects/pro-connection-services",
-      "sourceRoot": "projects/pro-connection-services/src",
-      "prefix": "lib",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "project": "projects/pro-connection-services/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/pro-connection-services/tsconfig.lib.prod.json"
-            },
-            "development": {
-              "tsConfig": "projects/pro-connection-services/tsconfig.lib.json"
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/pro-connection-services/src/test.ts",
-            "tsConfig": "projects/pro-connection-services/tsconfig.spec.json",
-            "karmaConfig": "projects/pro-connection-services/karma.conf.js"
-          }
-        }
-      }
-    }
-  },
-  "defaultProject": "pro-select"
+    "defaultProject": "pro-select"
 }

@@ -1,6 +1,7 @@
 {
     "name": "pro-slider",
-    "version": "0.0.1",
+    "version": "0.0.3",
+    "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
         "@angular/common": "^13.1.0",
         "@angular/core": "^13.1.0",
