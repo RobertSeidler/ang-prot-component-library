@@ -1,6 +1,6 @@
 {
     "name": "pro-connection-services",
-    "version": "0.0.3",
+    "version": "0.0.6",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
         "@angular/common": "^13.1.0",
@@ -8,5 +8,9 @@
     },
     "dependencies": {
         "tslib": "^2.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/protronic/ang-prot-component-library.git"
     }
 }
