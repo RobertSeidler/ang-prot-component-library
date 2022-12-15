@@ -3,8 +3,8 @@
     "version": "0.0.7",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
-        "@angular/common": "^13.1.0",
-        "@angular/core": "^13.1.0"
+        "@angular/common": "^14.2.12",
+        "@angular/core": "^14.2.12"
     },
     "dependencies": {
         "tslib": "^2.3.0"

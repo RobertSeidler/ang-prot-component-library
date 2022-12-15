@@ -3,10 +3,10 @@
     "version": "0.0.5",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
-        "@angular/common": "^13.1.0",
-        "@angular/core": "^13.1.0",
-        "@ng-select/ng-select": "^8.1.1",
-        "@fortawesome/angular-fontawesome": "^0.10.2"
+        "@angular/common": "^14.2.12",
+        "@angular/core": "^14.2.12",
+        "@ng-select/ng-select": "^9.1.0",
+        "@fortawesome/angular-fontawesome": "^0.12.0"
     },
     "dependencies": {
         "tslib": "^2.3.0"
