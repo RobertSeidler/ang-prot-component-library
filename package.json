@@ -6,7 +6,7 @@
         "start": "ng serve",
         "build:pro-connection-services": "ng build pro-connection-services",
         "build:pro-dimm-slider": "ng build pro-dimm-slider",
-        "build:pro-select-component": "ng build pro-select",
+        "build:pro-select-component": "ng build pro-select-component",
         "build:pro-slider": "ng build pro-slider",
         "build:all": "ng build pro-connection-services && ng build pro-dimm-slider && ng build pro-slider",
         "watch": "ng build --watch --configuration development",

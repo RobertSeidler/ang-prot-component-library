@@ -1,11 +1,12 @@
 <div class="cb-tag-container">
-    {{ cbTag }}:
+    {{ cbTag }}: {{ selectLabel }}
 </div>
 <div class="label-container">
-    <label><fa-icon [icon]="selectIcon"></fa-icon> {{ selectLabel }}</label>
+    <label><fa-icon [icon]="selectIcon"></fa-icon></label>
 </div>
 <div class="dropdown-container" [style]="defaultSelection !== undefined ? '' : 'grid-column: 4 / 6'">
-    <ng-select class="button" [id]="'NGS_' + id" [items]="selectItems" [addTag]="true" [ngModel]="selection" [disabled]="selectDisabled" [searchable]="false" [clearable]="false" (change)="selectionChanged($event)">
+    <ng-select class="button" [id]="'NGS_' + id" [items]="selectItems" [addTag]="true" [ngModel]="selection"
+        [disabled]="selectDisabled" [searchable]="false" [clearable]="false" (change)="selectionChanged($event)">
     </ng-select>
 </div>
 <div class="activate-toggle-container" *ngIf="defaultSelection !== undefined">
