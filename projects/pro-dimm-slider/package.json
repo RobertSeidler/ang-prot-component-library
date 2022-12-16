@@ -1,6 +1,6 @@
 {
     "name": "pro-dimm-slider",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
         "@angular/common": "^14.2.12",
@@ -10,8 +10,7 @@
         "@fortawesome/free-regular-svg-icons": "^6.2.1",
         "@fortawesome/free-solid-svg-icons": "^6.2.1",
         "@types/w3c-web-nfc": "^1.0.0",
-        "@types/web-bluetooth": "^0.0.12",
-        "pro-connection-services": "^0.0.7"
+        "@types/web-bluetooth": "^0.0.12"
     },
     "dependencies": {
         "tslib": "^2.3.0"
