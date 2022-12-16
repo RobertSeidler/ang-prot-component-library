@@ -1,10 +1,9 @@
 <div class="cb-tag-container">
-    {{ cbTag }}:
+    {{ cbTag }}: {{ sliderLabel }}
 </div>
 <div class="slider-label-container">
     <label>
     <fa-icon [icon]="sliderIcon"></fa-icon>
-    {{ sliderLabel }} 
     </label>
 </div>
 <div *ngIf="sliderVisable" class="slider-container">
