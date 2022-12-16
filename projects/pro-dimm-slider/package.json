@@ -1,10 +1,10 @@
 {
     "name": "pro-dimm-slider",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
-        "@angular/common": "^14.2.12",
-        "@angular/core": "^14.2.12",
+        "@angular/common": "^15.0.4",
+        "@angular/core": "^15.0.4",
         "@fortawesome/angular-fontawesome": "^0.12.0",
         "@fortawesome/fontawesome-svg-core": "^6.2.1",
         "@fortawesome/free-regular-svg-icons": "^6.2.1",

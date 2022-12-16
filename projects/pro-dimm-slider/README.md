@@ -1,10 +1,10 @@
 # ProDimmSlider
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Install
 
-Install this package by running `npm install --save pro-dimm-slider`. Also peer dependencies need to be intalled manually by running `npm install --save @fortawesome/angular-fontawesome@^0.10.2 fortawesome/fontawesome-svg-core@^6.1.0 @fortawesome/free-regular-svg-icons@^6.0.0 @fortawesome/free-solid-svg-icons@^6.1.0 @types/w3c-web-nfc@^1.0.0 @types/web-bluetooth@^0.0.12 pro-connection-services@^0.0.1`.
+Install this package by running `npm install --save pro-dimm-slider`. Also peer dependencies need to be intalled manually by running `npm install --save @fortawesome/angular-fontawesome@^0.12.0 fortawesome/fontawesome-svg-core@^6.2.1 @fortawesome/free-regular-svg-icons@^6.2.1 @fortawesome/free-solid-svg-icons@^6.2.1 @types/w3c-web-nfc@^1.0.0 @types/web-bluetooth@^0.0.12 pro-connection-services`.
 
 ## Code scaffolding
 

@@ -1,10 +1,10 @@
 {
     "name": "pro-select-component",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
-        "@angular/common": "^14.2.12",
-        "@angular/core": "^14.2.12",
+        "@angular/common": "^15.0.4",
+        "@angular/core": "^15.0.4",
         "@ng-select/ng-select": "^9.1.0",
         "@fortawesome/angular-fontawesome": "^0.12.0"
     },

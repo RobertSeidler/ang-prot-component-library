@@ -1,10 +1,10 @@
 # ProSelectComponent
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
+This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
 ## Install
 
-Install this package by running `npm install --save pro-select-component`. Also peer dependencies need to be intalled manually by running `npm install --save @ng-select/ng-select@^8.1.1 @fortawesome/angular-fontawesome@^0.10.2`.
+Install this package by running `npm install --save pro-select-component`. Also peer dependencies need to be intalled manually by running `npm install --save @ng-select/ng-select@^10.0.1 @fortawesome/angular-fontawesome@^0.12.0`.
 
 ## Code scaffolding
 
