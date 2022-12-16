@@ -1,7 +1,7 @@
 :host {
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-columns: 1fr 20% 20% 20% 100px;
+    grid-template-columns: 1fr 25px auto 100px 65px;
     /* column-gap: 1em; */
     grid-template-rows: min-content;
     font-size: 14px;

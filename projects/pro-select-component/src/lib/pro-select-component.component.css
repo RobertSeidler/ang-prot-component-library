@@ -13,7 +13,7 @@
     display: grid;
     /* grid-template-columns: repeat(4, 1fr); */
     /* grid-template-columns: 1fr 120px 20% 20%; */
-    grid-template-columns: 1fr 20% 20% 20% 100px;
+    grid-template-columns: 1fr 20% 25px 150px 65px;
     /* column-gap: 1em; */
     grid-template-rows: min-content;
     font-size: 14px;
