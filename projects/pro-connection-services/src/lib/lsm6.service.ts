@@ -95,6 +95,7 @@ export class Lsm6Parameter implements iLsm6Parameter, Serializable<Lsm6Parameter
 
 export interface iLsm6Data extends iLsm6Parameter {
   lsm?: {
+    avg: number[];
     dali: number[];
     sp: number[];
     sl: number[][];
@@ -104,6 +105,7 @@ export interface iLsm6Data extends iLsm6Parameter {
     caof: number[];
     max: number[];
     min: number[];
+    lavg: number[];
   };
   sens?: {
     ls: number[];
@@ -149,6 +151,7 @@ export const defLsm6Data: iLsm6Data = {
   btn: [false, false, false, false, false, false],
   sw: [true, true, true, true, true, true],
   lsm: {
+    avg: [0, 0, 0, 0, 0, 0],
     min: [96, 96, 96, 96, 96, 96],
     max: [254, 254, 254, 254, 254, 254],
     of: [255, 255, 255, 255, 255, 255],
@@ -165,6 +168,7 @@ export const defLsm6Data: iLsm6Data = {
     ],
     caof: [254, 254, 254, 254, 254, 254],
     oa: [1, 1, 1, 1, 1, 1],
+    lavg: [0, 0, 0, 0, 0, 0]
   },
   sens: {
     ls: [-1, -1, -1, -1, -1, -1],

@@ -14,6 +14,7 @@ export class ProDimmSliderComponent implements OnInit {
   @Input() dimmValue!: number;
   @Input() channel!: number;
   @Input() id!: String;
+  @Input() detail: String = '';
   @Input() sceneSlider = true;
   @Input() disabled = false;
   @Output() dimmValueChange = new EventEmitter<number>();
