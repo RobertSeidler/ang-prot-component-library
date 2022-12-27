@@ -10,16 +10,16 @@
   <fa-icon [icon]="faPowerOff" size="xs"></fa-icon>
 </div>
 <div class="slider col1">
-  <input type="number" [id]="'PRO_NUM_' + id" [ngModel]="dimmValue | dimm: clacType.Arc:1"
+  <input type="number" [id]="id + '_val' + channel" [ngModel]="dimmValue | dimm: clacType.Arc:1"
     (change)="setDimm(getEventTargetsValueAsNumber($event))" [disabled]="disabled || dimmValue == 255" [step]="0.1"
     aria-label="DimmValue" /> %
 </div>
 <div class="slider col2">
-  <input type="range" [id]="'PRO_RNG_' + id" [ngModel]="dimmValue | dimm" (ngModelChange)="setDimm($event)"
+  <input type="range" [id]="id + '_ran' + channel" [ngModel]="dimmValue | dimm" (ngModelChange)="setDimm($event)"
     [disabled]="disabled || dimmValue == 255" aria-label="Range" />
 </div>
 <div class="slider col3">
   <input type="checkbox" [id]="id + '_cb' + channel" [ngModel]="getCBVal()" (change)="toggleActive()"
     [disabled]="disabled" aria-label="Checkbox" />
-  <label [for]="'cb' + channel"></label>
+  <label [for]="id + '_cb' + channel"></label>
 </div>
