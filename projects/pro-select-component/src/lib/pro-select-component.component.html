@@ -10,6 +10,6 @@
     </ng-select>
 </div>
 <div class="activate-toggle-container" *ngIf="defaultSelection !== undefined">
-    <input type="checkbox" [id]="id" [ngModel]="cbValue" (change)="toggleActive($event)" />
+    <input type="checkbox" [id]="id" [ngModel]="cbValue" (change)="toggleActive($event)" aria-label="CheckBox"/>
     <label [for]="id"></label>
 </div>

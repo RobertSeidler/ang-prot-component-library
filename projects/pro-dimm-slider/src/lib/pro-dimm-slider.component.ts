@@ -13,6 +13,7 @@ export class ProDimmSliderComponent implements OnInit {
 
   @Input() dimmValue!: number;
   @Input() channel!: number;
+  @Input() id!: String;
   @Input() sceneSlider = true;
   @Input() disabled = false;
   @Output() dimmValueChange = new EventEmitter<number>();
@@ -62,7 +63,7 @@ export class ProDimmSliderComponent implements OnInit {
 
   getEventTargetsValueAsNumber(e: Event): number {
     let eventTarget = e.target;
-    if (eventTarget === null || eventTarget === undefined) return this.dimmValue; 
+    if (eventTarget === null || eventTarget === undefined) return this.dimmValue;
     return (eventTarget as HTMLInputElement).valueAsNumber;
   }
 

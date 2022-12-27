@@ -1,21 +1,25 @@
 <div class="legende col1">
 </div>
 <div class="legende col2">
-    <fa-icon [icon]="faCircle" size="xs" pull="left"></fa-icon>
-    <fa-icon [icon]="faLightbulb" size="xs"></fa-icon>
-    {{ channel + 1 }}
-    <fa-icon [icon]="faCertificate" size="xs" pull="right"></fa-icon>
+  <fa-icon [icon]="faCircle" size="xs" pull="left"></fa-icon>
+  <fa-icon [icon]="faLightbulb" size="xs"></fa-icon>
+  {{ channel + 1 }}
+  <fa-icon [icon]="faCertificate" size="xs" pull="right"></fa-icon>
 </div>
 <div class="legende col3">
-    <fa-icon [icon]="faPowerOff" size="xs"></fa-icon>
+  <fa-icon [icon]="faPowerOff" size="xs"></fa-icon>
 </div>
 <div class="slider col1">
-    <input type="number" [ngModel]="dimmValue | dimm: clacType.Arc:1" (change)="setDimm(getEventTargetsValueAsNumber($event))" [disabled]="disabled || dimmValue == 255" [step]="0.1" /> %
+  <input type="number" [id]="'PRO_NUM_' + id" [ngModel]="dimmValue | dimm: clacType.Arc:1"
+    (change)="setDimm(getEventTargetsValueAsNumber($event))" [disabled]="disabled || dimmValue == 255" [step]="0.1"
+    aria-label="DimmValue" /> %
 </div>
 <div class="slider col2">
-    <input type="range" [ngModel]="dimmValue | dimm" (ngModelChange)="setDimm($event)" [disabled]="disabled || dimmValue == 255" />
+  <input type="range" [id]="'PRO_RNG_' + id" [ngModel]="dimmValue | dimm" (ngModelChange)="setDimm($event)"
+    [disabled]="disabled || dimmValue == 255" aria-label="Range" />
 </div>
 <div class="slider col3">
-    <input type="checkbox" [id]="'cb' + channel" [ngModel]="getCBVal()" (change)="toggleActive()" [disabled]="disabled" />
-    <label [for]="'cb' + channel"></label>
+  <input type="checkbox" [id]="id + '_cb' + channel" [ngModel]="getCBVal()" (change)="toggleActive()"
+    [disabled]="disabled" aria-label="Checkbox" />
+  <label [for]="'cb' + channel"></label>
 </div>
