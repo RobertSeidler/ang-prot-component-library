@@ -6,7 +6,7 @@ import { webSocket, WebSocketSubject } from 'rxjs/webSocket';
   providedIn: 'root',
 })
 export class CloudService {
-  readonly MFT_CLOUD_URL = 'ws://89.22.112.177:5088/mft';
+  readonly MFT_CLOUD_URL = 'ws://89.22.112.177:8088/mft';
   readonly MFT_CLOUD_SSL_URL = 'wss://mft.protronic-gmbh.com/mft';
   public url!: string;
   socket!: WebSocketSubject<Object>;
