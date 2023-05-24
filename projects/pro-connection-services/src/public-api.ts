@@ -4,6 +4,5 @@
 
 export * from './lib/ble.service';
 export * from './lib/cloud.service';
-export * from './lib/lsm6.service';
 export * from './lib/nfc.service';
 export * from './lib/pro-connection-services.module';

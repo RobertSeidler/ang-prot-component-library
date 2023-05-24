@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { fromEvent, Observer, Subject } from 'rxjs';
-import { defLsm6Parameter } from './lsm6.service';
 
 @Injectable({
   providedIn: 'root',
@@ -14,7 +13,7 @@ export class NfcService implements Observer<Object> {
   test = "{\"btn\":[0,0,0,0,0,0],\"sw\":[1,1,1,1,1,1],\"lsm\":{\"min\":[96,96,96,96,96,96],\"max\":[254,254,254,254,254,254],\"of\":[255,255,255,255,255,255],\"si\":[0,0,1,1,4,5],\"dali\":[0,0,0,0,0,0],\"sp\":[400,200,400,200,0,0],\"sl\":[[254,254,255,255,255,255],[120,120,255,255,255,255],[255,254,255,255,255,255],[255,120,255,255,255,255],[254,254,255,255,255,255],[255,255,255,255,255,255]],\"oa\":[1,1,1,1,1,1]},\"sens\":{\"ls\":[-1,-1,-1,-1,-1,-1],\"lt\":[0,0,0,0,0,0],\"ts\":[0,0,0,0,0,0],\"mo\":[1032,8,264,520,1032,0]},\"dil\":0,\"err\":0}\r\n\r\n";
   writeInProgress = false;
 
-  async connect() {
+  async connect(defLsm6Parameter: Object) {
     this.log.next('Requesting NFC permission...');
     if ('NDEFReader' in window) {
       this.ndef = new NDEFReader();
