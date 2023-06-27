@@ -30,7 +30,7 @@ export class CloudService {
       location.protocol == 'https:' || location.host == 'mft.protronic-gmbh.com'
         ? 'wss://'
         : 'ws://';
-    const wsPort = location.port.length > 2 ? ':' + location.port : '';
+    const wsPort = location.port.length > 2 && location.port !== '4200' ? ':' + location.port : '';
     return wsProtocol + location.hostname + wsPort + '/mft/' + id + '/' + mode;
   }
 

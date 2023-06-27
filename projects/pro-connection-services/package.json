@@ -1,6 +1,6 @@
 {
     "name": "pro-connection-services",
-    "version": "0.0.21",
+    "version": "0.0.22",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
         "@angular/common": "^16.1.2",
