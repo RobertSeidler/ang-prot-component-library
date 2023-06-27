@@ -26,9 +26,12 @@ export class CloudService {
   }
 
   public getMFTCloudURL(id: string, mode: string): string {
-    return location.protocol !== 'https:'
-      ? this.MFT_CLOUD_URL + '/' + id + '/' + mode
-      : this.MFT_CLOUD_SSL_URL + '/' + id + '/' + mode;
+    const wsProtocol =
+      location.protocol == 'https:' || location.host == 'mft.protronic-gmbh.com'
+        ? 'wss://'
+        : 'ws://';
+    const wsPort = location.port.length > 2 ? ':' + location.port : '';
+    return wsProtocol + location.hostname + wsPort + '/mft/' + id + '/' + mode;
   }
 
   public closeSocket() {
