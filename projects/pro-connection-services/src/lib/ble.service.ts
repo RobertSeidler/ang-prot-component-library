@@ -77,7 +77,7 @@ export class BleService extends AnonymousSubject<Object> {
 
     try {
       let encoder = new TextEncoder();
-      this.rxCharacteristic.writeValue(encoder.encode(JSON.stringify(message)));
+      this.rxCharacteristic.writeValueWithoutResponse(encoder.encode(JSON.stringify(message)));
     } catch (error) {
       console.log(error);
       super.error(error);
