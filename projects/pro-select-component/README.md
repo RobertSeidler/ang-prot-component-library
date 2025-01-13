@@ -4,7 +4,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Install
 
-Install this package by running `npm install --save pro-select-component`. Also peer dependencies need to be intalled manually by running `npm install --save @ng-select/ng-select@^11.0.0 @fortawesome/angular-fontawesome@^0.12.0`.
+Install this package by running `npm install --save pro-select-component`. Also peer dependencies need to be intalled manually by running `npm install --save @ng-select/ng-select@^11.0.0 @fortawesome/angular-fontawesome@^0.14.1`.
 
 ## Code scaffolding
 
