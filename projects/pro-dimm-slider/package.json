@@ -1,6 +1,6 @@
 {
     "name": "pro-dimm-slider",
-    "version": "0.0.19",
+    "version": "0.0.20",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
         "@angular/common": "^16.1.4",

@@ -1,6 +1,6 @@
 {
     "name": "pro-select-component",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
         "@angular/common": "^16.1.4",
