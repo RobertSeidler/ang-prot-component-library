@@ -67,7 +67,7 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^18.2.1",
-    "typescript": "~5.5.4"
+    "typescript": "~5.5.4",
     "@types/web-bluetooth": "0.0.20",
     "jasmine-core": "5.5.0",
     "karma": "6.4.4",
