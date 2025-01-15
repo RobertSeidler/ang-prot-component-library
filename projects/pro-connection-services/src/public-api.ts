@@ -6,10 +6,3 @@ export * from './lib/ble.service';
 export * from './lib/cloud.service';
 export * from './lib/nfc.service';
 export * from './lib/pro-connection-services.module';
-
-export enum CalcType {
-  NoCalc = 'NoCalc',
-  Linear = 'Linear',
-  Arc = 'Arc',
-  Minutes = 'Minutes',
-}
