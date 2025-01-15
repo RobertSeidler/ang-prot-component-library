@@ -1,6 +1,5 @@
 import { Component, OnChanges, Input, SimpleChanges, Output, EventEmitter } from '@angular/core';
-import { DimmPipe } from 'pro-dimm-slider';
-import { CalcType } from 'pro-connection-services';
+import { CalcType, DimmPipe } from 'pro-dimm-slider';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 
 @Component({
@@ -67,7 +66,7 @@ export class ProSliderComponent implements OnChanges {
 
   getEventTargetsValueAsNumber(e: Event): number {
     let eventTarget = e.target;
-    if (eventTarget === null || eventTarget === undefined) return this.value; 
+    if (eventTarget === null || eventTarget === undefined) return this.value;
     return (eventTarget as HTMLInputElement).valueAsNumber;
   }
 

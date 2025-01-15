@@ -1,5 +1,4 @@
-import { DimmPipe } from './dimm.pipe';
-import { CalcType } from 'pro-connection-services';
+import { CalcType, DimmPipe } from './dimm.pipe';
 import { Component, OnInit, Input, SimpleChanges, Output, EventEmitter } from '@angular/core';
 import { faCertificate, faPowerOff } from '@fortawesome/free-solid-svg-icons';
 import { faLightbulb, faCircle } from '@fortawesome/free-regular-svg-icons';
@@ -19,7 +18,7 @@ export class ProDimmSliderComponent implements OnInit {
   @Input() disabled = false;
   @Output() dimmValueChange = new EventEmitter<number>();
   rangeValue!: number;
-  public clacType = CalcType;
+  public clacType: typeof CalcType = CalcType;
 
   faCircle = faCircle;
   faLightbulb = faLightbulb;

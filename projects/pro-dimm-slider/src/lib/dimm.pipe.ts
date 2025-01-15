@@ -1,6 +1,12 @@
 import { Pipe, PipeTransform } from '@angular/core';
 // import { CalcType } from '../../../pro-connection-services/src/public-api';
-import { CalcType } from 'pro-connection-services';
+
+export enum CalcType {
+  NoCalc = 'NoCalc',
+  Linear = 'Linear',
+  Arc = 'Arc',
+  Minutes = 'Minutes',
+}
 
 @Pipe({
   name: 'dimm'
