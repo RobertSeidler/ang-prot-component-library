@@ -12,6 +12,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/protronic/ang-prot-component-library.git"
+        "url": "git+https://github.com/protronic/ang-prot-component-library.git"
     }
 }
