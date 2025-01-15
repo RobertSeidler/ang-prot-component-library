@@ -13,7 +13,7 @@
             "prefix": "lib",
             "architect": {
                 "build": {
-                    "builder": "@angular-devkit/build-angular:browser",
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
                     "options": {
                         "project": "projects/pro-slider/ng-package.json"
                     },
