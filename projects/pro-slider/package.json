@@ -1,11 +1,11 @@
 {
     "name": "pro-slider",
-    "version": "0.0.23",
+    "version": "0.0.24",
     "author": "Robert Seidler <r.seidler@protronic-gmbh.de> (https://protronic-gmbh.de)",
     "peerDependencies": {
-        "@angular/common": "^17.3.12",
-        "@angular/core": "^17.3.12",
-        "@fortawesome/angular-fontawesome": "^0.14.1"
+        "@angular/common": "^18.2.13",
+        "@angular/core": "^18.2.13",
+        "@fortawesome/angular-fontawesome": "^0.15.0"
     },
     "dependencies": {
         "tslib": "^2.3.0"
