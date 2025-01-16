@@ -9,7 +9,8 @@ export enum CalcType {
 }
 
 @Pipe({
-  name: 'dimm'
+    name: 'dimm',
+    standalone: false
 })
 
 export class DimmPipe implements PipeTransform {

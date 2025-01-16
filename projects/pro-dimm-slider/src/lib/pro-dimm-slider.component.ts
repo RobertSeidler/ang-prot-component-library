@@ -4,9 +4,10 @@ import { faCertificate, faPowerOff } from '@fortawesome/free-solid-svg-icons';
 import { faLightbulb, faCircle } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
-  selector: 'app-pro-dimm-slider',
-  templateUrl: './pro-dimm-slider.component.html',
-  styleUrls: ['./pro-dimm-slider.component.css']
+    selector: 'app-pro-dimm-slider',
+    templateUrl: './pro-dimm-slider.component.html',
+    styleUrls: ['./pro-dimm-slider.component.css'],
+    standalone: false
 })
 export class ProDimmSliderComponent implements OnInit {
 

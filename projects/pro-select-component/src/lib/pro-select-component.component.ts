@@ -2,11 +2,12 @@ import { Component, Input, SimpleChanges, Output, EventEmitter, OnChanges, ViewE
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 
 @Component({
-  selector: 'app-pro-select',
-  templateUrl: './pro-select-component.component.html',
-  styleUrls: [
-    './pro-select-component.component.css'
-  ]
+    selector: 'app-pro-select',
+    templateUrl: './pro-select-component.component.html',
+    styleUrls: [
+        './pro-select-component.component.css'
+    ],
+    standalone: false
 })
 export class ProSelectComponentComponent implements OnChanges {
 

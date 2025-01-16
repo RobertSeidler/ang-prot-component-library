@@ -3,10 +3,11 @@ import { CalcType, DimmPipe } from 'pro-dimm-slider';
 import { IconDefinition } from '@fortawesome/fontawesome-common-types';
 
 @Component({
-  // tslint:disable-next-line: component-selector
-  selector: 'app-pro-slider',
-  templateUrl: './pro-slider.component.html',
-  styleUrls: ['./pro-slider.component.css']
+    // tslint:disable-next-line: component-selector
+    selector: 'app-pro-slider',
+    templateUrl: './pro-slider.component.html',
+    styleUrls: ['./pro-slider.component.css'],
+    standalone: false
 })
 export class ProSliderComponent implements OnChanges {
 
